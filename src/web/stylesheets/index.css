@@ -22,17 +22,37 @@
 
 /* Components */
 @import "./components/_button.css";
-@import "./components/_list.css";
+@import "./components/_op-list.css";
 @import "./components/_operation.css";
+@import "./components/recipe/_ingredients.css";
+@import "./components/recipe/_recipe-list.css";
 @import "./components/_pane.css";
 
 /* Layout */
 @import "./layout/_banner.css";
 @import "./layout/_controls.css";
-@import "./layout/_io.css";
+
+/* Components: IO */
+@import "./components/io/_io.css";
+@import "./components/io/_tabs.css";
+@import "./components/io/_icons.css";
+@import "./components/io/_search-results.css";
+@import "./components/io/_highlighting.css";
+@import "./components/io/_status-bar.css";
+@import "./components/io/_file-details.css";
+
+/* Layout */
 @import "./layout/_modals.css";
-@import "./layout/_operations.css";
-@import "./layout/_recipe.css";
+
+/* Components: Operations */
+@import "./components/operations/_operations.css";
+@import "./components/operations/_search.css";
+@import "./components/operations/_categories.css";
+
+/* Components: Recipe */
+@import "./components/recipe/_recipe.css";
+
+/* Layout */
 @import "./layout/_structure.css";
 
 /* Operations */

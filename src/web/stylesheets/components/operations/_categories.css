@@ -1,0 +1,21 @@
+#edit-favourites {
+    float: right;
+    margin-top: -7px;
+}
+
+.favourites-hover {
+    color: var(--rec-list-operation-font-colour);
+    background-color: var(--rec-list-operation-bg-colour);
+    border: 2px dashed var(--rec-list-operation-font-colour) !important;
+    padding: 8px 8px 9px 8px;
+}
+
+#categories a {
+    color: var(--category-list-font-colour);
+    cursor: pointer;
+}
+
+#categories a:hover,
+.op-list .operation:hover {
+    filter: brightness(98%);
+}
